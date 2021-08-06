@@ -1,0 +1,1651 @@
+[
+  {
+    "dialog_id": 0,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die häufigsten Symptome einer Depression?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit sind ein häufiges Anzeichen von Depressionen",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Angst gehört auch zu den häufigsten Symptomen bei einer Depression",
+        "transcript": "ok und was ist mit Schwindel ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["symptom", "schwindel"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Schwindelgefühle sind ein tyisches Symptom bei Depressionen",
+        "transcript": "danke sehr",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 1,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die seltensten Symptome einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen treten bei einer depression seltener auf",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 2,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 3,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig bei einer Depression vor vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 4,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome treten häufig bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 6,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 7,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind häufige Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Bei einer Depression kommt es oft zu Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "ich bin oft gereizt ist das auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt auch häufig bei Depressionen vor",
+        "transcript": "ok tschüss",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 8,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome bei einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 9,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit ein häufiges symptom einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit kommt häufig bei einer depression vor",
+        "transcript": "Vielen dank für die information",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 11,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt eher selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 12,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene symptome einer depression ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 13,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 14,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene anzeichen einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit , Reizbarkeit und Hoffnungslosigkeit kommen bei einer Depression vor",
+        "transcript": "und was ist mit angst ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Angst ist auch ein Symptom bei Depressionen",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist hoffnungslosigkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit kommt bei depressionen vor",
+        "transcript": "können kopfschmerzen auch auf eine depression hinweisen ?",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "kopfschmerzen"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Kopfschmerzen treten seltener bei Depressionen auf",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 18,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kommt es bei einer depression häufig vor, dass man keine hoffnung mehr im leben sieht ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den häufigen symptomen einer depression .",
+        "transcript": "bye",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 19,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Gehört Hoffnungslosigkeit zu den Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den symptomen einer depression",
+        "transcript": "ok",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"],
+          ["duration", "langfristig"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 20,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass man ständig Angst hat ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Angst ist ein häufiges Symptom bei Depressionen",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 21,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass ich oft Kopfschmerzen habe ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Nein kopfschmerzen treten eher seltener bei depressionen auf",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "suizid"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 22,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und was ist mit erhöhter reizbarkeit ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt oft bei Depressionen vor",
+        "transcript": "danke sehr",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 23,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und kann erhöhte reizbarkeit auch vorkommen ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt oft bei Depressionen vor",
+        "transcript": "vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 24,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kann bei depressionen auch erhöhte reizbarkeit vorkommen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"],
+
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 25,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist reizbarkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok und was ist mit lustlosigkeit ? ",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Lustlosigkeit ist auch ein symptom von depressionen ",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Angst ist auch ein Symptom von Depressionen",
+        "transcript": "wie häufig kommt Angst bei einer Depression vor ?",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "frequency"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 4,
+        "system_transcript": "Angst kommt häufig bei einer depression vor",
+        "transcript": "ok danke bis dann",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 26,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind typische symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["request", "symptom"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Typische Symptome bei einer Depression  sind Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "vielen dank tschüss",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 33,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "wie oft kommt lustlosigkeit bei depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Lustlosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 34,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "tritt hoffnungslosigkeit oft bei depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 35,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Wie oft kommt Hoffnungslosigkeit bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 36,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist angst ein symptom bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Angst ist ein häufiges Symptom bei Depressionen",
+        "transcript": "wie häufig kommt es vor , dass man gereizt ist ?",
+        "turn_label": [
+          ["type", "depression"],
+
+          ["request", "frequency"],
+
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "reizbarkeit"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Bei Depressionen ist es normal , dass man häufig gereizt ist",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 37,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Sind konzentrationsstörungen normal bei einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Konzentrationsstörungen sind ein typisches Symptom bei Depressionen",
+        "transcript": "wie häufig kommt es vor , dass man schwindelgefühle hat ?",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "frequency"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Schwindelgefühle sind typische körperliche Symptome bei Depressionen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 38,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man sich schlecht konzentrieren kann",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Konzentrationsstörungen sind ein typisches Symptom bei Depressionen",
+        "transcript": "ist es auch typisch , dass man oft schwindelgefühle hat ?",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Schwindelgefühle sind typische körperliche Symptome bei Depressionen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 39,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man ständig erschöpft ist",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "erschöpfung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "erschöpfung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Erschöpfung kommt höufig bei einer Depression vor",
+        "transcript": "ist es auch typisch , dass man sich oft zurückziehen will ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Ein typisches Verhalten bei Depressionen ist , dass man sich nicht mehr mit Freunden treffen will",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 40,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man keine Lust hat seine Freunde zu treffen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+
+      {
+        "turn": 2,
+        "system_transcript": "Ja es ist ein typisches Verhalten bei Depressionen , dass man sich nicht mehr mit Freunden treffen will",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 41,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja lustlosigkeit ist ein Zeichen einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 42,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "kommt lustlosigkeit häufig bei depressionen vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit kommt häufig bei einer depression vor",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 42,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "tritt lustlosigkeit häufig bei depressionen auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit tritt häufig bei depressionen auf",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 43,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit normal bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja lustlosigkeit ist normal bei einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 44,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist angst normal bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja angst ist normal bei einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 45,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Wie häufig ist Angst bei einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Angst kommt häufig bei einer Depression vor",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 45,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal angst zu haben wenn man eine depression hat ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja angst ist normal bei depressionen",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  }
+]

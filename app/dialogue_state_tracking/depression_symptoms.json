@@ -1,0 +1,2429 @@
+[
+  {
+    "dialog_id": 0,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die häufigsten Symptome einer Depression?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit sind ein häufiges Anzeichen von Depressionen",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Angst gehört auch zu den häufigsten Symptomen bei einer Depression",
+        "transcript": "ok und was ist mit Schwindel ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["symptom", "schwindel"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Schwindelgefühle sind ein tyisches Symptom bei Depressionen",
+        "transcript": "danke sehr",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 1,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die seltensten Symptome einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen treten bei einer depression seltener auf",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 2,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 3,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig bei einer Depression vor vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 4,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome treten häufig bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 6,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 7,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind häufige Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Bei einer Depression kommt es oft zu Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "ich bin oft gereizt ist das auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt auch häufig bei Depressionen vor",
+        "transcript": "ok tschüss",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 8,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome bei einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 9,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit ein häufiges symptom einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit kommt häufig bei einer depression vor",
+        "transcript": "Vielen dank für die information",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 11,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt eher selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 12,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene symptome einer depression ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 13,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 14,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene anzeichen einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "selten"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit , Reizbarkeit und Hoffnungslosigkeit kommen bei einer Depression vor",
+        "transcript": "und was ist mit angst ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Angst ist auch ein Symptom bei Depressionen",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist hoffnungslosigkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit kommt bei depressionen vor",
+        "transcript": "können kopfschmerzen auch auf eine depression hinweisen ?",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "kopfschmerzen"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Kopfschmerzen treten seltener bei Depressionen auf",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 18,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kommt es bei einer depression häufig vor, dass man keine hoffnung mehr im leben sieht ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den häufigen symptomen einer depression .",
+        "transcript": "bye",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 19,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Gehört Hoffnungslosigkeit zu den Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den symptomen einer depression",
+        "transcript": "ok",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"],
+          ["duration", "langfristig"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 20,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass man ständig Angst hat ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Angst ist ein häufiges Symptom bei Depressionen",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["frequency", "oft"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 21,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass ich oft Kopfschmerzen habe ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "kopfschmerzen"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Nein kopfschmerzen treten eher seltener bei depressionen auf",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "suizid"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 22,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und was ist mit erhöhter reizbarkeit ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt oft bei Depressionen vor",
+        "transcript": "danke sehr",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 23,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und kann erhöhte reizbarkeit auch vorkommen ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt oft bei Depressionen vor",
+        "transcript": "vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 24,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kann bei depressionen auch erhöhte reizbarkeit vorkommen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"],
+
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "reizbarkeit"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 25,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist reizbarkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok und was ist mit lustlosigkeit ? ",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Lustlosigkeit ist auch ein symptom von depressionen ",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "symptom"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Angst ist auch ein Symptom von Depressionen",
+        "transcript": "wie häufig kommt Angst bei einer Depression vor ?",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "frequency"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 4,
+        "system_transcript": "Angst kommt häufig bei einer depression vor",
+        "transcript": "ok danke bis dann",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 26,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind typische symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["request", "symptom"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Typische Symptome bei einer Depression  sind Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "vielen dank tschüss",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 33,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "wie oft kommt lustlosigkeit bei depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Lustlosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 34,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "tritt hoffnungslosigkeit oft bei depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 35,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Wie oft kommt Hoffnungslosigkeit bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "hoffnungslosigkeit"],
+
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"],
+          ["request", "frequency"]
+        ]
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 36,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist angst ein symptom bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Angst ist ein häufiges Symptom bei Depressionen",
+        "transcript": "wie häufig kommt es vor , dass man gereizt ist ?",
+        "turn_label": [
+          ["type", "depression"],
+
+          ["request", "frequency"],
+
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "reizbarkeit"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Bei Depressionen ist es normal , dass man häufig gereizt ist",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 37,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Sind konzentrationsstörungen normal bei einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Konzentrationsstörungen sind ein typisches Symptom bei Depressionen",
+        "transcript": "wie häufig kommt es vor , dass man schwindelgefühle hat ?",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "frequency"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Schwindelgefühle sind typische körperliche Symptome bei Depressionen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 38,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man sich schlecht konzentrieren kann",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "konzentrationsstörung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Konzentrationsstörungen sind ein typisches Symptom bei Depressionen",
+        "transcript": "ist es auch typisch , dass man oft schwindelgefühle hat ?",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Schwindelgefühle sind typische körperliche Symptome bei Depressionen",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schwindel"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 39,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man ständig erschöpft ist",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "erschöpfung"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "erschöpfung"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Erschöpfung kommt höufig bei einer Depression vor",
+        "transcript": "ist es auch typisch , dass man sich oft zurückziehen will ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Ein typisches Verhalten bei Depressionen ist , dass man sich nicht mehr mit Freunden treffen will",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 40,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer depression, dass man keine Lust hat seine Freunde zu treffen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "rückzug"],
+          ["type", "depression"],
+          ["frequency", "oft"]
+        ]
+      },
+
+      {
+        "turn": 2,
+        "system_transcript": "Ja es ist ein typisches Verhalten bei Depressionen , dass man sich nicht mehr mit Freunden treffen will",
+        "transcript": "ok vielen dank",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "rückzug"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 41,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja lustlosigkeit ist ein Zeichen einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["type", "depression"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 42,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "kommt lustlosigkeit häufig bei depressionen vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit kommt häufig bei einer depression vor",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 42,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "tritt lustlosigkeit häufig bei depressionen auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit tritt häufig bei depressionen auf",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 43,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit normal bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja lustlosigkeit ist normal bei einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "lustlosigkeit"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 44,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist angst normal bei depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja angst ist normal bei einer depression",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 45,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Wie häufig ist Angst bei einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "frequency"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Angst kommt häufig bei einer Depression vor",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 45,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal angst zu haben wenn man eine depression hat ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["frequency", "oft"],
+          ["type", "depression"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja angst ist normal bei depressionen",
+        "transcript": "Ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["frequency", "oft"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 0,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit einiger zeit angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "ok das sollten wir dann vielleicht mit einem Arzt besprechen in Ordnung ?",
+        "transcript": "ja ok",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["confirmation", "ja"],
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 1,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit gestern angst das haus zu verlassen . was kann ich dagegen machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Entspannungstechniken oder Stressmanagement helfen dir seelische Belastungen besser zu meistern",
+        "transcript": "ja ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 2,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe große angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [["symptom", "angst"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "angst"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "wie lange hast du das schon ?",
+        "transcript": "ungefähr seit mitte letzter woche . was soll ich jetzt nur machen ?",
+        "turn_label": [
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört sich nicht gut an , soll ich zur Sicherheit einen Arzt kontaktieren ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 3,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe große angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [["symptom", "angst"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "angst"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "wie lange hast du das schon ?",
+        "transcript": "erst seit kurzem",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Möchtest du wissen ob du etwas dagegen unternehmen kannst ?",
+        "transcript": "ja bitte",
+        "turn_label": [["request", "action"]],
+        "system_acts": ["request"],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Es ist völlig in Ordnung  Angst zu spüren und zuzulassen. Das Unterdrücken dieser Angst führt zu verstärkten Angstgefühlen und kann Panikattacken begünstigen. Daher ist es wichtig, die Angst bewusst wahrzunehmen. Erst dann ist es möglich, eine andere Wahrnehmung der Angst zu entwickeln und erfolgreich mit der Angst umzugehen.",
+        "transcript": "ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 4,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit einiger zeit große angst mein haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "angst"],
+          ["duration", "lang"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das ist schlecht , möchtest du lieber mit einem Arzt darüber reden ?",
+        "transcript": "nein danke passt schon , aber was kann ich dagegen machen ?",
+        "turn_label": [
+          ["confirmation", "nein"],
+          ["request", "action"]
+        ],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["confirmation", "nein"],
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Bemerken Menschen erste Stresssymptome an sich , ist es hilfreich , ausreichend Entspannung sowie positive auch körperliche Aktivitäten in den Alltag einzubauen - das ist angstlösend",
+        "transcript": "ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"],
+          ["confirmation", "nein"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich sehe einfach keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du das schon ?",
+        "transcript": "das geht schon so seit wochen",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das ist schlecht , dann werde ich lieber einen Arzt verständigen in Ordnung ?",
+        "transcript": "ok danke das ist sehr nett",
+        "turn_label": [["confirmation", "lang"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["confirmation", "lang"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich sehe einfach keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du das schon ?",
+        "transcript": "das habe ich erst seit kurzem . was kann ich da dagegen machen ?",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["request", "action"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "kurz"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Hoffnung gibt es immer . Du kannst sogar aktiv mitwirken . gehe öfters spazieren , mach was mit deinen Freunden",
+        "transcript": "ok danke das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "kurz"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 6,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe das gefühl es gibt keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du diese Hoffnungslosigkeit schon ?",
+        "transcript": "das habe ich erst seit kurzem . kann ich etwas dagegen machen ?",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["request", "action"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "kurz"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Hoffnung gibt es immer . Du kannst sogar aktiv mitwirken . gehe öfters spazieren , mach was mit deinen Freunden",
+        "transcript": "ok danke das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "kurz"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 7,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich innerlich nur noch leer",
+        "system_transcript": "",
+        "turn_label": [["symptom", "leere"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "leere"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du diese innere Leere schon ?",
+        "transcript": "das habe ich schon ziemlich lange",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Ich finde das hört sich nicht gut an , möchtest du mit einem Arzt reden ?",
+        "transcript": "ja gerne",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 8,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich jetzt schon seit wochen innerlich komplett leer",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ich glaube dann sollten wir lieber einen Arzt kontaktieren in Ordnung ?",
+        "transcript": "ok danke",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 9,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kann ich gegen innere leere machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "leere"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Oft können Veränderungen helfen, das Gefühl der inneren Leere zu lindern. Wie wäre es mit einer neuen Sportart ?",
+        "transcript": "ok das probiere ich mal aus",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "leere"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe einfach auf nichts mehr lust im leben ",
+        "system_transcript": "",
+        "turn_label": [["symptom", "lustlosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "lustlosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange geht das schon so mit der Lustlosigkeit ?",
+        "transcript": "ach das habe ich schon ewig . kann ich etwas dagegen machen ?",
+        "turn_label": [
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Zeit mit Freunden, Familie und für sich selbst ist entspannend. Auch Wandern, Schwimmen, Yoga hilft, Stress im Alltag loszuwerden . Soll ich lieber einen Arzt verständigen ?",
+        "transcript": "nein danke",
+        "turn_label": [["confirmation", "nein"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["duration", "lang"],
+          ["confirmation", "nein"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 11,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich bin ständig gereizt und weiß nicht was ich dagegen tun kann  ",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Eine überhöhte Reizbarkeit lässt sich je nach Ursache unterschiedlich behandeln . Leidet der Patient lediglich an einer leichten Reizbarkeit , können Naturmittel wie Johanniskraut , Baldrian , Hopfen , Lavendel , Kamille oder Melisse helfen .",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "reizbarkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 12,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kann ich tun wenn ich immer gereizt bin ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Eine überhöhte Reizbarkeit lässt sich je nach Ursache unterschiedlich behandeln . Leidet der Patient lediglich an einer leichten Reizbarkeit , können Naturmittel wie Johanniskraut , Baldrian , Hopfen , Lavendel , Kamille oder Melisse helfen .",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "reizbarkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 13,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit ein paar wochen schlafstörungen , was kann ich dagegen machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "schlaflosigkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wenn du nicht einschlafen kannst , dann beweg dich . Geh langsam spazieren oder laufe durch die Wohnung . Die Bewegung baut Spannungen ab . Auch ein leichtes Buch kann helfen , auf andere Gedanken zu kommen",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "schlaflosigkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 14,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "meine schlafstörungen machen mich fertig",
+        "system_transcript": "",
+        "turn_label": [["symptom", "schlaflosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "schlaflosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange hast du schon Schlafstörungen ?",
+        "transcript": "gefühlt schon seit ewigkeiten",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Schlafstörungen können ein Anzeichen von Depressionen sein , ich werde lieber einen Arzt kontaktieren in Ordnung ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich glaube ich habe seit längerer Zeit depressionen was soll ich jetzt tun ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Am besten ist die Depression als schwere Krankheit zu akzeptieren. Dann solltest du dich einer Vertrauensperson mitteilen. Soll ich einen Arzt kontaktieren ?",
+        "transcript": "ja das wäre nett",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 16,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was kann ich tun , um aus meiner Depression herauszukommen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Anerkennen, dass man an einer schweren Erkrankung leidet. Alkohol und Drogenkonsum am besten vermeiden und den tagesablauf strukturieren",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["type", "depression"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 16,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "wie komm ich bei depressionen wieder klar ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Anerkennen, dass man man an einer schweren Erkrankung leidet. Alkohol und Drogenkonsum am besten vermeiden und den tagesablauf strukturieren",
+        "transcript": "ok ich versuche es",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["type", "depression"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 17,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was soll ich gegen die ständige angst machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "angst"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange geht das schon so mit der Angst ?",
+        "transcript": "das hat vor 3 wochen begonnen",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Der erste Schritt, die Angst vor der Angst zu überwinden, ist sie zu akzeptieren. Es ist völlig in Ordnung diese Angst zu spüren und zuzulassen. Das Unterdrücken dieser Angst führt zu verstärkten Angstgefühlen und kann Panikattacken begünstigen. Soll ich lieber einen Arzt verständigen ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["confirmation", "ja"],
+          ["request", "action"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 70,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich will so einfach nicht mehr weiterleben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Es gibt immer einen Grund um weiterzuleben . Nicht die Hoffnung verlieren wir schaffen das schon . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 71,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe keine lust mehr zu leben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Du musst da drüber mit jemanden reden . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 72,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe keine motivation mehr weiter zu leben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Es gibt viel was einen motiviert weiter zu leben, zum Beispiel Freunde und familie . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  }
+]

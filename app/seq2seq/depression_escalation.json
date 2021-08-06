@@ -1,0 +1,780 @@
+[
+  {
+    "dialog_id": 0,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit einiger zeit angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "ok das sollten wir dann vielleicht mit einem Arzt besprechen in Ordnung ?",
+        "transcript": "ja ok",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["confirmation", "ja"],
+          ["duration", "lang"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 1,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit gestern angst das haus zu verlassen . was kann ich dagegen machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Entspannungstechniken oder Stressmanagement helfen dir seelische Belastungen besser zu meistern",
+        "transcript": "ja ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 2,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe große angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [["symptom", "angst"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "angst"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "wie lange hast du das schon ?",
+        "transcript": "ungefähr seit mitte letzter woche . was soll ich jetzt nur machen ?",
+        "turn_label": [
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört sich nicht gut an , soll ich zur Sicherheit einen Arzt kontaktieren ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["duration", "lang"],
+          ["symptom", "angst"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 3,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe große angst das haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [["symptom", "angst"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "angst"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "wie lange hast du das schon ?",
+        "transcript": "erst seit kurzem",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Möchtest du wissen ob du etwas dagegen unternehmen kannst ?",
+        "transcript": "ja bitte",
+        "turn_label": [["request", "action"]],
+        "system_acts": ["request"],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Es ist völlig in Ordnung  Angst zu spüren und zuzulassen. Das Unterdrücken dieser Angst führt zu verstärkten Angstgefühlen und kann Panikattacken begünstigen. Daher ist es wichtig, die Angst bewusst wahrzunehmen. Erst dann ist es möglich, eine andere Wahrnehmung der Angst zu entwickeln und erfolgreich mit der Angst umzugehen.",
+        "transcript": "ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 4,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit einiger zeit große angst mein haus zu verlassen",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "angst"],
+          ["duration", "lang"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das ist schlecht , möchtest du lieber mit einem Arzt darüber reden ?",
+        "transcript": "nein danke passt schon , aber was kann ich dagegen machen ?",
+        "turn_label": [
+          ["confirmation", "nein"],
+          ["request", "action"]
+        ],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["confirmation", "nein"],
+          ["request", "action"],
+          ["duration", "kurz"],
+          ["symptom", "angst"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Bemerken Menschen erste Stresssymptome an sich , ist es hilfreich , ausreichend Entspannung sowie positive auch körperliche Aktivitäten in den Alltag einzubauen - das ist angstlösend",
+        "transcript": "ok danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["duration", "kurz"],
+          ["symptom", "angst"],
+          ["confirmation", "nein"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich sehe einfach keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du das schon ?",
+        "transcript": "das geht schon so seit wochen",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das ist schlecht , dann werde ich lieber einen Arzt verständigen in Ordnung ?",
+        "transcript": "ok danke das ist sehr nett",
+        "turn_label": [["confirmation", "lang"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["confirmation", "lang"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich sehe einfach keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du das schon ?",
+        "transcript": "das habe ich erst seit kurzem . was kann ich da dagegen machen ?",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["request", "action"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "kurz"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Hoffnung gibt es immer . Du kannst sogar aktiv mitwirken . gehe öfters spazieren , mach was mit deinen Freunden",
+        "transcript": "ok danke das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "kurz"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 6,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe das gefühl es gibt keine hoffnung mehr in meinem leben",
+        "system_transcript": "",
+        "turn_label": [["symptom", "hoffnungslosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "hoffnungslosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du diese Hoffnungslosigkeit schon ?",
+        "transcript": "das habe ich erst seit kurzem . kann ich etwas dagegen machen ?",
+        "turn_label": [["duration", "kurz"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["request", "action"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["duration", "kurz"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Hoffnung gibt es immer . Du kannst sogar aktiv mitwirken . gehe öfters spazieren , mach was mit deinen Freunden",
+        "transcript": "ok danke das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "kurz"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 7,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich innerlich nur noch leer",
+        "system_transcript": "",
+        "turn_label": [["symptom", "leere"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "leere"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Das hört sich nicht gut an . Wie lange hast du diese innere Leere schon ?",
+        "transcript": "das habe ich schon ziemlich lange",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Ich finde das hört sich nicht gut an , möchtest du mit einem Arzt reden ?",
+        "transcript": "ja gerne",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 8,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich jetzt schon seit wochen innerlich komplett leer",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ich glaube dann sollten wir lieber einen Arzt kontaktieren in Ordnung ?",
+        "transcript": "ok danke",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 9,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kann ich gegen innere leere machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "leere"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "leere"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Oft können Veränderungen helfen, das Gefühl der inneren Leere zu lindern. Wie wäre es mit einer neuen Sportart ?",
+        "transcript": "ok das probiere ich mal aus",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "leere"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe einfach auf nichts mehr lust im leben ",
+        "system_transcript": "",
+        "turn_label": [["symptom", "lustlosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "lustlosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange geht das schon so mit der Lustlosigkeit ?",
+        "transcript": "ach das habe ich schon ewig . kann ich etwas dagegen machen ?",
+        "turn_label": [
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Zeit mit Freunden, Familie und für sich selbst ist entspannend. Auch Wandern, Schwimmen, Yoga hilft, Stress im Alltag loszuwerden . Soll ich lieber einen Arzt verständigen ?",
+        "transcript": "nein danke",
+        "turn_label": [["confirmation", "nein"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "lustlosigkeit"],
+          ["duration", "lang"],
+          ["confirmation", "nein"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 11,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich bin ständig gereizt und weiß nicht was ich dagegen tun kann  ",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Eine überhöhte Reizbarkeit lässt sich je nach Ursache unterschiedlich behandeln . Leidet der Patient lediglich an einer leichten Reizbarkeit , können Naturmittel wie Johanniskraut , Baldrian , Hopfen , Lavendel , Kamille oder Melisse helfen .",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "reizbarkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 12,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kann ich tun wenn ich immer gereizt bin ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "reizbarkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Eine überhöhte Reizbarkeit lässt sich je nach Ursache unterschiedlich behandeln . Leidet der Patient lediglich an einer leichten Reizbarkeit , können Naturmittel wie Johanniskraut , Baldrian , Hopfen , Lavendel , Kamille oder Melisse helfen .",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "reizbarkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 13,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit ein paar wochen schlafstörungen , was kann ich dagegen machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "schlaflosigkeit"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wenn du nicht einschlafen kannst , dann beweg dich . Geh langsam spazieren oder laufe durch die Wohnung . Die Bewegung baut Spannungen ab . Auch ein leichtes Buch kann helfen , auf andere Gedanken zu kommen",
+        "transcript": "hört sich gut an , das probiere ich mal",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["symptom", "schlaflosigkeit"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 14,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "meine schlafstörungen machen mich fertig",
+        "system_transcript": "",
+        "turn_label": [["symptom", "schlaflosigkeit"]],
+        "system_acts": [],
+        "belief_state": [["symptom", "schlaflosigkeit"]]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange hast du schon Schlafstörungen ?",
+        "transcript": "gefühlt schon seit ewigkeiten",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["duration", "lang"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Schlafstörungen können ein Anzeichen von Depressionen sein , ich werde lieber einen Arzt kontaktieren in Ordnung ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "schlaflosigkeit"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich glaube ich habe seit längerer Zeit depressionen was soll ich jetzt tun ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Am besten ist die Depression als schwere Krankheit zu akzeptieren. Dann solltest du dich einer Vertrauensperson mitteilen. Soll ich einen Arzt kontaktieren ?",
+        "transcript": "ja das wäre nett",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["type", "depression"],
+          ["duration", "lang"],
+          ["confirmation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 16,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was kann ich tun , um aus meiner Depression herauszukommen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Anerkennen, dass man an einer schweren Erkrankung leidet. Alkohol und Drogenkonsum am besten vermeiden und den tagesablauf strukturieren",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["type", "depression"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 16,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "wie komm ich bei depressionen wieder klar ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["type", "depression"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["type", "depression"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Anerkennen, dass man man an einer schweren Erkrankung leidet. Alkohol und Drogenkonsum am besten vermeiden und den tagesablauf strukturieren",
+        "transcript": "ok ich versuche es",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [["type", "depression"]]
+      }
+    ]
+  },
+  {
+    "dialog_id": 17,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was soll ich gegen die ständige angst machen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "angst"],
+          ["request", "action"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Wie lange geht das schon so mit der Angst ?",
+        "transcript": "das hat vor 3 wochen begonnen",
+        "turn_label": [["duration", "lang"]],
+        "system_acts": ["duration"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["request", "action"]
+        ]
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Der erste Schritt, die Angst vor der Angst zu überwinden, ist sie zu akzeptieren. Es ist völlig in Ordnung diese Angst zu spüren und zuzulassen. Das Unterdrücken dieser Angst führt zu verstärkten Angstgefühlen und kann Panikattacken begünstigen. Soll ich lieber einen Arzt verständigen ?",
+        "transcript": "ja bitte",
+        "turn_label": [["confirmation", "ja"]],
+        "system_acts": ["confirmation"],
+        "belief_state": [
+          ["symptom", "angst"],
+          ["duration", "lang"],
+          ["confirmation", "ja"],
+          ["request", "action"]
+        ]
+      }
+    ]
+  },
+
+  {
+    "dialog_id": 70,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich will so einfach nicht mehr weiterleben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Es gibt immer einen Grund um weiterzuleben . Nicht die Hoffnung verlieren wir schaffen das schon . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 71,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe keine lust mehr zu leben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Du musst da drüber mit jemanden reden . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  },
+  {
+    "dialog_id": 72,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe keine motivation mehr weiter zu leben",
+        "system_transcript": "",
+        "turn_label": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Es gibt viel was einen motiviert weiter zu leben, zum Beispiel Freunde und familie . Ich verständige sofort einen Arzt",
+        "transcript": "danke",
+        "turn_label": [],
+        "system_acts": [],
+        "belief_state": [
+          ["symptom", "suizid"],
+          ["escalation", "ja"]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1194 @@
+[
+  {
+    "dialog_id": 0,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die häufigsten Symptome einer Depression?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit sind ein häufiges Anzeichen von Depressionen",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["escalation", "niedrig"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Angst gehört auch zu den häufigsten Symptomen einer Depression",
+        "transcript": "Ok danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 1,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind die seltensten Symptome einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen treten bei einer Deperssion seltener auf",
+        "transcript": "Ok danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 2,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 3,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 4,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 5,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome treten häufig bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 6,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 7,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind häufige Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["request", "symptom"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Bei einer Depression kommt es oft zu Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "ich bin oft gereizt ist das auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+          ["escalation", "niedrig"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kommt auch häufig bei Depressionen vor",
+        "transcript": "vielen dank bis dann",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 8,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome bei einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 9,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen oft bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind die häufigsten symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 10,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist lustlosigkeit ein häufiges symptom einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"],
+          ["symptom", "lustlosigkeit"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja Lustlosigkeit kommt häufig bei eier depression vor",
+        "transcript": "Viel dank für die information",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 11,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was kommt eher selten bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 12,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene symptome einer depression ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 13,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche symptome kommen selten bei einer depression vor ? ",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 14,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind seltene anzeichen einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "selten"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Kopfschmerzen kommen nicht ganz so häufig vor",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "was sind symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen bei einer Depression vor",
+        "transcript": "ich sehe seit längerer zeit bei mir keine hoffnung mehr",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 15,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist hoffnungslosigkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["escalation", "niedrig"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit kommt oft bei depressionen vor",
+        "transcript": "ich weiß nicht mehr was ich tun soll , ich sehe seit längerer zeit bei mir keine hoffnung mehr",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 16,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "hallo ich weiß gerade nicht mehr weiter und brauce hilfe",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 17,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich weiß nicht mehr was ich tun soll mit meiner depression , ich bin am verzweifeln",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"],
+          ["type", "depression"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 18,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kommt es bei einer depression häufig vor, dass man keine hoffnung mehr im leben sieht ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["frequency", "oft"],
+          ["symptom", "hoffnungslosigkeit"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den symptomen einer depression",
+        "transcript": "das macht mich einfach total fertig , am liebsten würde ich nicht mehr leben",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 19,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Gehört Hoffnungslosigkeit zu den Anzeichen einer Depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Ja hoffnungslosigkeit gehört zu den symptomen einer depression",
+        "transcript": "ohje das belastet mich sehr , ich sehe einfach keine dinge mehr positiv",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 20,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass man ständig Angst hat",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["symptom", "angst"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Es kann schon passieren , dass man bei einer Depression häufig Angst hat",
+        "transcript": "ohje das belastet mich sehr , ich kann mich daraus einfach nicht befreien",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 21,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Ist es normal bei einer Depression , dass man keine lust mehr auf das leben hat ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["request", "symptom"],
+          ["frequency", "oft"]
+        ],
+        "system_acts": []
+      },
+
+      {
+        "turn": 1,
+        "system_transcript": "Bei einer Depression denkt man oft , dass es keine Hoffnung mehr gibt",
+        "transcript": "das macht mich fertig ich habe keine lust mehr zu leben",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Das hört nicht gut an . Ich verständige lieber einen Arzt in Ordnung ? ",
+        "transcript": "danke",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["termination", "ja"],
+          ["confirmation", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 22,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und was ist mit erhöhter reizbarkeit ?",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "nein"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "danke sehr",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 23,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "welche anzeichen kommen sehr häufig bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["frequency", "oft"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Lustlosigkeit und Hoffnungslosigkeit kommen häufig bei einer depression vor",
+        "transcript": "und kann erhöhte reizbarkeit auch vorkommen ?",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "nein"],
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "vielen dank",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 24,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Kann bei depressionen auch erhöhte reizbarkeit vorkommen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["type", "depression"],
+          ["termination", "nein"],
+          ["symptom", "reizbarkeit"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok vielen dank",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 25,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ist reizbarkeit ein anzeichen von depressionen ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "reizbarkeit"],
+          ["escalation", "niedrig"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ja erhöhte Reizbarkeit kann auch vorkommen",
+        "transcript": "ok und was ist mit lustlosigkeit ? ",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "lustlosigkeit"],
+          ["escalation", "niedrig"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 2,
+        "system_transcript": "Lustlosigkeit ist auch ein symptom von depressionen ",
+        "transcript": "ist angst auch ein symptom ?",
+        "turn_label": [
+          ["request", "symptom"],
+          ["symptom", "angst"],
+          ["escalation", "niedrig"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 3,
+        "system_transcript": "Angst ist auch ein Symptom von Depressionen",
+        "transcript": "wie häufig kommt Angst bei einer Depression vor ?",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "nein"],
+          ["request", "frequency"],
+          ["symptom", "angst"],
+          ["type", "depression"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 4,
+        "system_transcript": "Angst kommt häufig bei einer depression vor",
+        "transcript": "ok danke bis dann",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 26,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Was sind typische symptome einer depression ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["request", "symptom"],
+          ["escalation", "niedrig"],
+          ["type", "depression"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Typische Symptome sind Lustlosigkeit und Hoffnungslosigkeit",
+        "transcript": "vielen dank tschüss",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 27,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich habe seit einigen tagen keine lust mehr auf irgendetwas",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "mittel"],
+          ["symptom", "lustlosigkeit"],
+          ["duration", "kurz"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 28,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich nur noch müde und erschöpft",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "mittel"],
+          ["symptom", "müdigkeit"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "seit wann geht das denn so ?",
+        "transcript": "das geht schon seit wochen so",
+        "turn_label": [
+          ["duration", "langfristig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": ["duration"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 29,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "seit einiger zeit hab ich auf nichts mehr lust",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "mittel"],
+          ["symptom", "lustlosigkeit"],
+          ["duration", "lang"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 30,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich kann einfach nicht mehr richtig schlafen",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "mittel"],
+          ["symptom", "schlaflosigkeit"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "seit wann ist das so ?",
+        "transcript": "ungefähr seit 3 wochen",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["duration", "lang"],
+          ["termination", "ja"]
+        ],
+        "system_acts": ["duration"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 31,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich fühle mich innerlich komplett leer",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "mittel"],
+          ["symptom", "leere"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "seit wann fühlst du so ?",
+        "transcript": "seit ein paar tagen",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["duration", "kurz"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 32,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "ich sehe momentan einfach keinen sinn mehr im leben",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "hoch"],
+          ["symptom", "suizid"],
+          ["termination", "nein"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "system_transcript": "Ok dann werde ich einen Arzt für dich verständigen . In Ordnung ?",
+        "transcript": "ok vielen dank",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["confirmation", "ja"],
+          ["termination", "ja"]
+        ],
+        "system_acts": ["confirmation"]
+      }
+    ]
+  },
+  {
+    "dialog_id": 33,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "wie oft kommt lustlosigkeit bei depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["symptom", "lustlosigkeit"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Lustlosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 34,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "tritt hoffnungslosigkeit oft bei depression auf ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  },
+  {
+    "dialog_id": 35,
+    "dialogue": [
+      {
+        "turn": 0,
+        "transcript": "Wie oft kommt Hoffnungslosigkeit bei einer depression vor ?",
+        "system_transcript": "",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["symptom", "hoffnungslosigkeit"],
+          ["termination", "nein"],
+          ["type", "depression"],
+          ["request", "frequency"]
+        ],
+        "system_acts": []
+      },
+      {
+        "turn": 1,
+        "transcript": "ok danke tschüss",
+        "system_transcript": "Hoffnungslosigkeit kommt häufig bei Depressionen vor",
+        "turn_label": [
+          ["escalation", "niedrig"],
+          ["termination", "ja"]
+        ],
+        "system_acts": []
+      }
+    ]
+  }
+]
